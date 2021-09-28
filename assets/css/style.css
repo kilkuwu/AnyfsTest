@@ -60,15 +60,17 @@ html {
   width: 80px;
 }
 
-#home {
-  margin-top: 80px;
+.content .content-section {
   width: 100%;
   height: 1080px;
-  background: linear-gradient(15deg, #070123, gray);
   position: relative;
 }
 
-#home .content-section-head {
+#home {
+  background: linear-gradient(15deg, #070123, gray);
+}
+
+#home .home-head {
   font-family: "Oswald", "Montserrat", "Lato", sans-serif;
   color: white;
   font-size: 80px;
@@ -90,7 +92,7 @@ html {
   }
 }
 
-#home .home-section-description {
+#home .home-description {
   font-family: "Oswald", "Montserrat", "Lato", sans-serif;
   color: #00ffbe;
   width: 40%;
@@ -112,34 +114,112 @@ html {
     opacity: 1;
   }
 }
-/* .header li a:hover
-{
-  color: #ffad3b;
-  text-decoration: none;
+
+#about {
+  background: linear-gradient(15deg, gray, #3a22a5);
 }
 
-.header ul #contact a
-{
-  color: #fff;
-  background-color: #ffb5a1;
-  border-radius: 30px;
-  float: right;
-  position: relative;
-  top: -15px;
-  transition: .3s ease;
+#about .about-head {
+  font-family: "Oswald", "Montserrat", "Lato", sans-serif;
+  color: white;
+  font-size: 80px;
+  position: absolute;
+  right: 100px;
+  text-transform: uppercase;
+  top: 150px;
+  animation: comefromright 1s ease 1;
 }
 
-.header ul #contact a:hover
-{
-  background-color: red;
+@keyframes comefromright {
+  from {
+    right: -100px;
+    opacity: 0;
+  }
+  to {
+    right: 100px;
+    opacity: 1;
+  }
 }
 
-.active
-{
-  color: #000;
-} */
+#blog {
+  background: linear-gradient(15deg, #00b7ff, gray);
+}
 
-.content {
+#blog .blog-head {
+  font-family: "Oswald", "Montserrat", "Lato", sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  position: absolute;
   width: 100%;
-  height: 3000px;
+  text-transform: uppercase;
+  top: 150px;
+  animation: comefromtop 1s ease 1;
+}
+
+@keyframes comefromtop {
+  from {
+    top: 0px;
+    opacity: 0;
+  }
+  to {
+    top: 150px;
+    opacity: 1;
+  }
+}
+
+#gallery {
+  background: linear-gradient(15deg, rgba(255, 255, 255, 0.507), rgb(44, 44, 44));
+}
+
+#gallery .gallery-head {
+  font-family: "Oswald", "Montserrat", "Lato", sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  position: absolute;
+  width: 100%;
+  text-transform: uppercase;
+  top: 150px;
+  animation: comefromtop 1s ease 1;
+}
+
+#contact {
+  background: linear-gradient(15deg, rgba(255, 0, 76, 0.507), rgb(44, 44, 44));
+}
+
+#contact .contact-head {
+  font-family: "Oswald", "Montserrat", "Lato", sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  position: absolute;
+  width: 100%;
+  text-transform: uppercase;
+  top: 400px;
+  animation: smalltobig 1s ease 1;
+}
+
+@keyframes smalltobig {
+  from {
+    font-size: 0px;
+    opacity: 0;
+  }
+  to {
+    font-size: 80px;
+    opacity: 1;
+  }
+}
+
+.footer {
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-family: "Montserrat", "Lato", sans-serif;
+  font-size: 30px;
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 1));
+}
+
+.icon {
+  padding: 10px;    
 }

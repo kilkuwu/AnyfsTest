@@ -1,2 +1,2 @@
-# ANYFS
-A web app for all the things that you need to study.
+# ANYFS - All You Need For Studying
+ANYFS is an web-application created with the intention of utilizing the current high-end technology for the purposes of studying. With ANYFS, the authors want to widely spread the idea of learning with the help of modern techniques and devices which is barely applied in most developing countries.
