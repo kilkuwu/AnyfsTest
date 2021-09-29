@@ -4,8 +4,29 @@
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #004F94;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 html {
   font-family: "Lato";
+  scroll-behavior: smooth;
+  scrollbar-arrow-color: black;
+  scrollbar-base-color: black;
 }
 
 .header
